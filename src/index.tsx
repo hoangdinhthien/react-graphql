@@ -10,7 +10,7 @@ import {
 } from '@apollo/client';
 
 let client = new ApolloClient({
-    uri: 'https://api.spacex.land/graphql/',
+    uri: 'http://localhost:8000/graphql/',
     // uri: 'https://spacex-api.p.rapidapi.com/v5/launches/latest',
     cache: new InMemoryCache(),
 });
