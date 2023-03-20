@@ -83,7 +83,10 @@ function App() {
                              customer.name +
                              ' - ' +
                              'Industry: ' +
-                             customer.industry}
+                             customer.industry +
+                             ' (ID: ' +
+                             customer.id +
+                             ')'}
                        </h2>
                        {customer.orders.map((order: Order) => {
                           return (
